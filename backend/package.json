@@ -5,7 +5,10 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "server": "nodemon server.js"
+    "start": "node server.js",
+    "preinstall": "rm -rf node_modules/bcrypt/lib/binding"
+
+
   },
   "author": "",
   "license": "ISC",
