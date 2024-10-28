@@ -4,12 +4,11 @@
   "description": "",
   "main": "index.js",
   "type": "module",
-  "scripts": {
-    "start": "node server.js",
-    "preinstall": "rm -rf node_modules/bcrypt/lib/binding"
+"scripts": {
+  "preinstall": "rm -rf node_modules/bcrypt/lib/binding",
+  "server": "nodemon server.js"
+},
 
-
-  },
   "author": "",
   "license": "ISC",
   "dependencies": {
